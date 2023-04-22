@@ -2,17 +2,23 @@ import './App.css';
 import React from 'react';
 import MarqueeHeader from './components/MarqueeHeader';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Links from './components/Links';
+import { Shop } from './pages/shop/shop';
+import { Account } from './pages/account/account';
+import { Cart } from './pages/cart/cart';
 
-function App() {
+
+const App = () => {
   return (
     <div className="App">
       <Router>
         <MarqueeHeader/>
+        <Links/>
         <Routes>
-          <Route path="/"/>
-          <Route path="/shop"/>
-          <Route path="/account"/>
-          <Route path="/cart"/>
+          <Route path="/" ></Route>
+          <Route path="/shop" element={<Shop/>}></Route>
+          <Route path="/account" element={<Account/>}></Route>
+          <Route path="/cart" element={<Cart/>}></Route>
         </Routes>
       </Router>
     </div>
