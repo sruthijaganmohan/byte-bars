@@ -8,5 +8,8 @@ export const Product = (props) => {
                 <p> {productName} </p>
                 <p> Rs.{price} </p>
             </div>
+            <div>
+                <button className="addToCart">add to cart</button>
+            </div>
         </div>
 };

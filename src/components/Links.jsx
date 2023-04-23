@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 const Links = () => {
     return (
     <div className="links">
-        <Link to="/shop">shop</Link>
-        <Link to="/account">account</Link>
-        <Link to="/cart">cart</Link>
+        <button><Link to="/shop">shop</Link></button>
+        <button><Link to="/account">account</Link></button>
+        <button><Link to="/cart">cart</Link></button>
     </div>
     );
   }
