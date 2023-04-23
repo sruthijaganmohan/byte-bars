@@ -1,0 +1,30 @@
+@font-face { 
+    font-family: 'Bugaki'; 
+    src: url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.woff2') format('woff2'), 
+    url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-display: swap;
+  }
+
+.shop-container {
+    font-family: 'Bugaki', sans-serif;
+    height: 100%;
+    width: 100%;
+    background:  linear-gradient(to bottom, #EC2019 0% 32%, #67E3E2 32% 64%, #DD18A2 64% 96%, #000000 96% 100%);
+}
+
+.cart-link {
+  margin-bottom: 60px;
+}
+
+#cart-link {
+  margin-left: 65px;
+    font-family: 'Bugaki', sans-serif;
+    font-size: 30px;
+    background-color: #FFEF22;
+    color: #FF285F;
+    border: 5px solid #FFEF22;
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}

@@ -1,0 +1,57 @@
+@font-face { 
+    font-family: 'Bugaki'; 
+    src: url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.woff2') format('woff2'), 
+    url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-display: swap;
+  }
+
+.product {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.image {
+    width: 30%;
+    height: 50%;
+}
+
+.description {
+    width: 30%;
+    margin-top: 90px;
+    color: #FFFFFF;
+}
+
+#product-name {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#product-ingredients {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+#product-price {
+    font-size: 25px;
+}
+
+.add-to-cart {
+    margin-left: 25px;
+    font-family: 'Bugaki', sans-serif;
+    font-size: 30px;
+    color: transparent;
+    color: #FFFFFF;
+    background-color: transparent;
+    border: 5px solid #FFFFFF;
+    border-radius: 40px;
+    padding: 10px 20px 10px 20px;
+}
+
+.add-to-cart:hover{
+    background-color: #ffffff;
+    color: #FF285F;
+}
+
+

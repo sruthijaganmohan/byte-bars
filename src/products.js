@@ -8,6 +8,7 @@ export const PRODUCTS = [
         productName: "CHOCO CHIP BYTE BAR",
         price: 84,
         productImage: product1,
+        ingredients: "organic peanut butter, organic dates, organic peanuts, chocolate chips(cane sugar, unsweetened chocolate, cocoa butter), chicory root fiber, organic oats, coconut, MCT oil, monk fruit",
     },
 
     {
@@ -15,6 +16,7 @@ export const PRODUCTS = [
         productName: "PEANUT BUTTA BYTE BAR",
         price: 84,
         productImage: product2,
+        ingredients: "organic peanut butter, organic dates, organic peanuts, chicory root fiber, organic oats, coconut, MCT oil, monk fruit",
     },
 
     {
@@ -22,6 +24,8 @@ export const PRODUCTS = [
         productName: "CINNA CHERRY BYTE BAR",
         price: 84,
         productImage: product3,
+        ingredients: "organic peanut butter, organic dates, almonds, organic sunflower seeds, pumpkin seeds, cherries(cherries, apple juice, sunflower oil), chicory root fiber, MCT oil, organic flax seeds, chia seeds, cinnamon, monk fruit",
+
     },
 
 ];
