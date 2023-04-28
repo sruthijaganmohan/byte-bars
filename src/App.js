@@ -6,11 +6,13 @@ import { Home } from './pages/home/home';
 import { Shop } from './pages/shop/shop';
 import { Account } from './pages/account/account';
 import { Cart } from './pages/cart/cart';
+import { ShopContextProvider } from './context/shop-context';
 
 
 const App = () => {
   return (
     <div className="App">
+      <ShopContextProvider>
       <Router>
         <MarqueeHeader/>
         <Routes>
@@ -20,6 +22,7 @@ const App = () => {
           <Route path="/cart" element={<Cart/>}></Route>
         </Routes>
       </Router>
+      </ShopContextProvider>
     </div>
   );
 }
