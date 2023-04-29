@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 import Footer from "../../components/Footer";
 import './shop.css';
 
-export const Shop = () => {
+export const Shop = (props) => {
+
     return( 
     <div className="shop-container">
         <div className="shop"> 
@@ -15,7 +16,9 @@ export const Shop = () => {
                 ))}
             </div>
             <div className="cart-link">
-                <Link id="cart-link" to="/cart">cart</Link>
+                <Link id="cart-link" to="/cart">
+                    cart
+                </Link>
             </div>        
             <div>
                 <Footer/>
