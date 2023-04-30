@@ -1,0 +1,79 @@
+@font-face { 
+    font-family: 'Bugaki'; 
+    src: url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.woff2') format('woff2'), 
+    url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.ttf') format('ttf');
+    font-style: normal;
+    font-display: swap;
+  }
+
+.account-container {
+    background: linear-gradient(to bottom, #4061C8 0% 89%, #000000 89% 100%);
+    font-family: 'Bugaki', sans-serif;
+}
+
+.account {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-container {
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+
+.lips-image {
+    height: 86.3vh;
+    width: 110vh;
+    margin-left: -90px;
+}
+
+.hello > * {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 50px;
+    color: #FC83A9;
+    letter-spacing: 2px;
+    margin-top: 90px;
+}
+
+.account-shop-link {
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+#account-details-link {
+    background-color: #FFEF22;
+    color: #4061C8;
+    font-family: 'Bugaki', sans-serif;
+    padding: 20px 40px 20px 40px;
+    border: 5px solid #FFEF22;
+    font-size: 35px;
+    border-radius: 55px;
+    text-decoration: none;
+}
+
+#account-orders-link {
+    background-color: #FFEF22;
+    color: #4061C8;
+    font-family: 'Bugaki', sans-serif;
+    padding: 20px 40px 20px 40px;
+    border: 5px solid #FFEF22;
+    font-size: 35px;
+    border-radius: 55px;
+    text-decoration: none;
+}
+#account-shop-link {
+    background-color: #FFEF22;
+    color: #4061C8;
+    font-family: 'Bugaki', sans-serif;
+    padding: 20px 60px 20px 60px;
+    border: 5px solid #FFEF22;
+    font-size: 35px;
+    border-radius: 55px;
+    text-decoration: none;
+}
+
+.account-shop-link:hover{
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    transform: scale(1.05, 1.05);
+}
