@@ -1,10 +1,10 @@
-@font-face { 
-    font-family: 'Bugaki'; 
-    src: url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.woff2') format('woff2'), 
-    url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.ttf') format('ttf');
+@font-face {
+    font-family: 'Bugaki';
+    src: url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.woff2') format('woff2'),
+        url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.ttf') format('ttf');
     font-style: normal;
     font-display: swap;
-  }
+}
 
 .cart-item {
     font-family: 'Bugaki', sans-serif;

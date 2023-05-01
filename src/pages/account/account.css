@@ -1,10 +1,10 @@
-@font-face { 
-    font-family: 'Bugaki'; 
-    src: url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.woff2') format('woff2'), 
-    url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.ttf') format('ttf');
+@font-face {
+    font-family: 'Bugaki';
+    src: url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.woff2') format('woff2'),
+        url('https://23498363.fs1.hubspotusercontent-na1.net/hubfs/23498363/Bugaki-Regular.ttf') format('ttf');
     font-style: normal;
     font-display: swap;
-  }
+}
 
 .account-container {
     background: linear-gradient(to bottom, #4061C8 0% 89%, #000000 89% 100%);
@@ -27,7 +27,7 @@
     margin-left: -90px;
 }
 
-.hello > * {
+.hello>* {
     display: inline-block;
     vertical-align: middle;
     font-size: 50px;
@@ -62,6 +62,7 @@
     border-radius: 55px;
     text-decoration: none;
 }
+
 #account-shop-link {
     background-color: #FFEF22;
     color: #4061C8;
@@ -73,7 +74,7 @@
     text-decoration: none;
 }
 
-.account-shop-link:hover{
+.account-shop-link:hover {
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
     transform: scale(1.05, 1.05);
 }

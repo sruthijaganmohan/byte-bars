@@ -7,23 +7,23 @@ import './shop.css';
 
 export const Shop = (props) => {
 
-    return( 
-    <div className="shop-container">
-        <div className="shop"> 
-            <div className="products">
-                {PRODUCTS.map((product) => (
-                    <Product data={product}/>
-                ))}
-            </div>
-            <div className="cart-link">
-                <Link id="cart-link" to="/cart">
-                    cart
-                </Link>
-            </div>        
-            <div>
-                <Footer/>
+    return (
+        <div className="shop-container">
+            <div className="shop">
+                <div className="products">
+                    {PRODUCTS.map((product) => (
+                        <Product data={product} />
+                    ))}
+                </div>
+                <div className="cart-link">
+                    <Link id="cart-link" to="/cart">
+                        cart
+                    </Link>
+                </div>
+                <div>
+                    <Footer />
+                </div>
             </div>
         </div>
-    </div>
     );
 }
